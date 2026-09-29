@@ -295,5 +295,5 @@ else:
         video_html_attrs={"autoPlay": True, "muted": True, "playsInline": True, "controls": False},
         media_toggle_controls=False,
         sendback_audio=False,
-        async_processing=True,,
+        async_processing=True,
     )
