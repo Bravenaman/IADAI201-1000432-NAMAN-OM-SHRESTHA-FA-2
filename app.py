@@ -288,12 +288,12 @@ else:
         key="live-camera",
         video_frame_callback=on_frame,
         media_stream_constraints={
-            "video": {"width": {"ideal": 640}, "height": {"ideal": 480}, "facingMode": "user"},
+            "video": {"width": {"ideal": 480}, "height": {"ideal": 360}, "facingMode": "user"},
             "audio": False,
         },
         rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},
         video_html_attrs={"autoPlay": True, "muted": True, "playsInline": True, "controls": False},
         media_toggle_controls=False,
         sendback_audio=False,
-        async_processing=False,
+        async_processing=True,,
     )
