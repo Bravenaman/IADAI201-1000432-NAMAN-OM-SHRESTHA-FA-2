@@ -155,7 +155,7 @@ Open your browser and navigate to `http://localhost:8501`.
 ## ☁️ Deployment on Streamlit Cloud
 
 1. Push your repository to **GitHub** (ensure `app.py`, `pose_landmarker.task`, `logo.png`, and `requirements.txt` are included).
-2. Go to [share.streamlit.io](https://share.streamlit.io/) and log in with GitHub.
+2. Go to [share.streamlit.io](https://iadai201-1000432-naman-om-shrestha-fa-2-demjjqmn3mxocgtzwjw6at.streamlit.app/) and log in with GitHub.
 3. Select your repository, branch (`main`), and set the main file path to `app.py`.
 4. Deploy the application.
 
